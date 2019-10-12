@@ -1,0 +1,48 @@
+.contenitore {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+ */
+}
+.standard {
+  width: 90vw;
+  height: 90vh;
+  position: absolute;
+  left: 3vw;
+  right: 3vw;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid blue;
+}
+.blocco1 {
+  background-image: url("https://www.turituri.com/wp-content/uploads/roma-colosseo.jpg");
+  position: absolute;
+  top: 20px;
+}
+.blocco2 {
+  background-image: url("https://www.gelestatic.it/thimg/Dlf3UHfwU7_K1yCTFUPyvNSgvrU=/fit-in/960x540/https%3A//www.lastampa.it/image/contentid/policy%3A1.33575437%3A1561903591/eafd8be6-131a-11e9-ad1b-a53376d0a2e4_WPNX-31769_iStock-859265102-863x575-k1PG-U105337720910488-1024x576%40LaStampa.it.jpg%3Ff%3Ddetail_558%26h%3D720%26w%3D1280%26%24p%24f%24h%24w%3Dfdced66");
+  position: absolute;
+  top: 800px;
+}
+.blocco3 {
+  background-image: url("https://www.mondoaeroporto.it/wp-content/uploads/2015/02/Tokyo-Main-Image.jpg");
+  position: absolute;
+  top: 1600px;
+}
+.written {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+}
